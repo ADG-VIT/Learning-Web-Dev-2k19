@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Magazines</title>
+        <link href="Task1.css" type:"text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="#Home">Home</a>
+            <a href="Task1.html">Description</a>
+            <a class="active" href="#sub">Subcribe</a>
+            <a href="#About">About</a>
+        </div>
+        <br>
+        <div class="sub">
+            <h3>Subscription:</h3>
+            <form>
+                <label>Name: <input type="text" placeholder="John Smith" required></label>
+                <br>
+                <label>Gender: </label>
+                <label>Male <input name="Gender" type="radio"></label>
+                <label>Female <input name="Gender" type="radio"></label>
+                <label>Other <input name="Gender" type="radio"></label>
+                <br>
+                <label>Date of birth: <input type="date"></label>
+                <br>
+                <label>Email: <input type="email" placeholder="abc@def.com" required></label>
+                <br>
+                <label>Password: <input type="password" placeholder="Password" pattern=".{5,10}" required title="5 t0 10 Characters"></label>
+                <br>
+                <label>Subscription Type: 
+                    <select>
+                        <option>Weekly</option>
+                        <option>Two weeks</option>
+                        <option>Monthly</option>
+                        <option>Quarterly</option>
+                    </select>
+                </label>
+                <br>
+                <label>
+                    Subscribe to:<br>
+                    Forbes <input type="checkbox"><br>
+                    Vogue <input type="checkbox"><br>
+                    National Geographic <input type="checkbox"><br>
+                    The Economist <input type="checkbox"><br>
+                </label><br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
