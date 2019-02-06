@@ -1,0 +1,53 @@
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/shopping-pattern-25081476.jpg");
+}
+h1{
+    font: outline;
+    height: 50px;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;   
+}
+img{
+    max-height: 300px;
+    max-width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid;
+    border-color: black;
+    border-radius: 200px;
+}
+
+.topnav {
+  background-color: grey;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color:whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:navy;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: black;
+  color: whitesmoke;
+}
+.info{
+    width: 1200px;
+    height: 300px;
+    border: 5px solid;
+    color: gray;
+    padding: 10px;
+}
