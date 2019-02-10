@@ -1,0 +1,49 @@
+body
+{
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-size:30px;}
+}
+textarea {
+    resize: none;
+}
+
+.un{
+    font-size:18px;
+    color:black;
+    font-weight: bold;
+
+}
+header{
+    overflow: hidden;
+    background-color: aqua;
+    padding: 10px 10px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 220px;
+    padding-top: 25px;
+}
+.box3{
+    position: relative;
+    max-width: 600px;
+    padding 50px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+
+}
+textarea {
+    resize: none;
+}
