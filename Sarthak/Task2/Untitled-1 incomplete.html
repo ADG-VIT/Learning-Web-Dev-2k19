@@ -1,0 +1,204 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
+        <title>
+            Task-2
+        </title>
+        <style>
+            
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .first {                 
+                background-size: cover;
+                height: 735px;
+                position: relative;
+            }
+
+            .box1 {
+                color: white;
+                border: white 2px solid;
+                font-family: "Lucida console";
+                position: absolute;
+                left: 10%;
+                top: 5%;
+                padding: 7px;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-weight: lighter;
+            }
+
+            .midtext {
+                color: white;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                width: 70%;
+            }
+
+            .midh1 {
+                font-size: 50px;
+            }
+
+            .nexth1 {
+                font-size: 50px;
+                font-weight: lighter; 
+                margin-bottom: 15px;               
+            }
+
+            .line {
+                display:block;
+                border: 0;
+                border-top: 2px solid white;
+                margin: 16px auto;
+                margin-bottom: 8px;
+                width: 10%;
+            }
+
+            .boxes {
+                color: white;
+                background-color: rgba(255,255,255,0.3);
+                border: white 1px solid;
+                font-family: 'Lucida console';
+                font-size: 15px;
+                padding: 2% 5%;
+                width: 48%;
+                text-align: center;
+
+            }
+
+            .table{
+                width: 50%;
+                margin-left: 25%;
+                margin-right: 25%;
+            }
+
+            .odd {
+                font-family: "Cedarville Cursive", cursive;
+                color: white;
+                font-size: 30px;
+                padding: 0px 20px;
+            }
+
+            .boxes:hover, .boxes:active {
+                background-color: brown;
+                
+            }
+
+            .boxes, a, .bars {
+                cursor: pointer;
+                cursor: url("assets/pointe123.cur");
+                
+            }
+
+            .list {
+                list-style-type: none;
+                position: fixed;
+                right: 5%;
+                top: 50%;
+            }
+
+            .burger {
+                border-top: white solid 2px;
+                display: block;
+                width: 20px;
+                padding-bottom: 3px;
+                
+            }
+
+            .bars {
+                position: absolute;
+                right: 5%;
+                top: 5%;
+            }
+
+            .lefttext {
+                color: white;
+                padding-top: 10%;
+                padding-left: 10%;
+                
+            }
+
+        </style>
+    </head>
+    <!--Image block
+        List none-->
+    <!--Nav.png
+        Down arrow-->
+    <body>
+        
+        <div class="first" id="first" style="background-image: url('assets/Layer 21.png');">
+            <h2>
+                <a href="../Task2/Untitled-1.html">   
+                    <span class="box1">
+                        TLGDESIGN
+                    </span>
+                </a>
+            </h2>
+
+            <div class="bars">
+                <block class="burger">
+
+                </block>
+                <block class="burger">
+
+                </block>
+                <block class="burger">
+
+                </block>
+            </div>
+           
+            <div class="midtext">
+                <block>
+                    <h1 class="midh1" style="font-family: 'Lucida Console'">
+                        
+                            WELCOME TO                        
+                    </h1>
+                </block>
+                <block class="line">
+        
+                   
+                </block>
+            
+               <block>
+                    <h1 class="nexth1" style="font-family: 'Cedarville Cursive', cursive;">
+                        Thislooksgreat Photography Studio
+                    </h1>
+                </block>
+                <block>
+                    <table class="table">
+                        <tr>
+                            <td class="boxes">BROWSE GALLERY</td>
+                            <td class="odd">or</td>
+                            <td class="boxes">HIRE ME</td>
+                        </tr>
+                    </table>
+
+                </block>
+                
+
+            </div>
+            
+                
+        </div>
+        
+        <div class="first" id="second" style="background-image: url('assets/Layer 11.png');">
+            <div class="lefttext">
+                <p><span style="color: yellow;">11 OCTOBER 2014</span> | PARIS</p>
+            </div>
+        </div>
+        <ul class="list">
+            <li><a href="#first" class="a"><img src="assets/nav.png" /></a></li>
+            
+            <li><a href="#second" class="a"><img src="assets/nav.png" /></a></li>
+            
+            <li><img src="assets/nav.png" /></li>
+                
+            <li><img src="assets/nav.png" /></li>
+        </ul>
+    </body>
+</html>
