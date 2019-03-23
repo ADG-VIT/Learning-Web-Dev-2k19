@@ -1,0 +1,351 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <title>
+            Task-2
+        </title>
+        <style>
+            
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .first {                 
+                background-size: cover;
+                height: 735px;
+                position: relative;
+            }
+
+            .box1 {
+                color: white;
+                border: white 2px solid;
+                font-family: "Lucida console";
+                position: absolute;
+                left: 10%;
+                top: 5%;
+                padding: 7px;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-weight: lighter;
+            }
+
+            .box1:hover {
+                background-color: rgba(255,255,255,0.3);
+            }
+
+            .midtext {
+                color: white;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                width: 70%;
+            }
+
+            .midh1 {
+                font-size: 50px;
+            }
+
+            .nexth1 {
+                font-size: 50px;
+                font-weight: lighter; 
+                padding: 15px 0px;
+                
+            }
+
+            .line {
+                display:block;
+                border-width: 0px;
+                border-top: 2px solid white;
+                margin: 16px auto;
+                margin-bottom: 8px;
+                width: 10%;
+            }
+
+            .boxes {
+                color: white;
+                background-color: rgba(255,255,255,0.3);
+                border: white 3px solid;
+                font-family: 'Lucida console';
+                font-size: 15px;
+                padding: 20px;
+                width: 48%;
+                text-align: center;
+
+            }
+
+            .table{
+                width: 50%;
+                margin-left: 25%;
+                margin-right: 25%;
+                padding-top: 10px;
+            }
+
+            .odd {
+                font-family: "Tangerine", serif;
+                color: white;
+                font-size: 50px;
+                padding: 0px 20px;
+            }
+
+            .boxes:hover, .boxes:active {
+                background-color: brown;
+                
+            }
+
+            .boxes, a, .bars {
+                cursor: pointer;
+                cursor: url("assets/pointe123.cur");
+                
+            }
+
+            .list {
+                list-style-type: none;
+                position: fixed;
+                right: 5%;
+                top: 50%;
+                transform: translate(0%, -50%);
+            }
+
+            .burger {
+                border-top: white solid 2px;
+                display: block;
+                width: 20px;
+                padding-bottom: 3px;
+                
+            }
+
+            .bars {
+                position: absolute;
+                right: 5%;
+                top: 5%;
+            }
+
+            .lefttext {
+                color: white;
+                padding-top: 10%;
+                padding-left: 10%;
+                width: 40%;
+                font-family: "lucida console", monospace;
+            }
+
+            .georgia{
+                font-family: "georgia", serif;
+                font-size: 11px;
+                line-height: 4em;
+                font-style: italic;
+                width:100%;
+                
+            }    
+
+            .quote {
+                font-weight: lighter;
+                width: 100%;
+                text-align: justify;
+                font-size: 25px;
+            }
+
+            .text {
+                border: white solid 3px;
+                width: 48%;
+                padding: 15px 0px;
+                background-color: rgba(255,255,255,0.3);
+                color: white;
+                font-family: "Lucida Console", monospace;
+                padding-left: 20px;
+                font-size: 15px;                
+            }
+
+            .text::placeholder {
+                color: white;
+                font-family: "Lucida Console", monospace;
+                }
+
+            form * {
+                margin: 10px auto;
+                
+            }  
+
+            .arrow {
+                position: absolute;
+                left:50%;
+                top:90%;
+                padding: 20px;
+                border: white 2px solid;
+                border-radius: 50%;
+                transform: translate(-50%,-50%);
+            }
+
+            .nav{
+                border: 5px white solid;
+                padding:1px 10px;
+                
+            }
+
+            ul li {
+                margin-top: 30px;
+                transform: rotate(45deg);
+            }
+
+            ul li:hover {
+                background-color: rgba(255,255,255,0.6);
+            }
+
+        </style>
+    </head>
+    <!--Image block
+        List none
+        Text box-->
+    <!--Nav.png-->
+    <body>
+        
+        <div class="first" id="first" style="background-image: url('assets/Layer 21.png');">
+            <h2>
+                <a href="../Task2/Untitled-1.html">   
+                    <span class="box1">
+                        TLGDESIGN
+                    </span>
+                </a>
+            </h2>
+
+            <div class="bars">
+                <block class="burger">
+
+                </block>
+                <block class="burger">
+
+                </block>
+                <block class="burger">
+
+                </block>
+            </div>
+           
+            <div class="midtext">
+                <block>
+                    <h1 class="midh1" style="font-family: 'Lucida Console'">
+                        
+                            WELCOME TO                        
+                    </h1>
+                </block>
+                <block class="line">
+        
+                   
+                </block>
+            
+               <block>
+                    <h1 class="nexth1" style="font-family: 'Tangerine', serif;">
+                        Thislooksgreat Photography Studio
+                    </h1>
+                </block>
+                <block>
+                    <table class="table">
+                        <tr>
+                            <td class="boxes">BROWSE GALLERY</td>
+                            <td class="odd">or</td>
+                            <td class="boxes">HIRE ME</td>
+                        </tr>
+                    </table>
+
+                </block>
+                
+                
+
+            </div>
+            <a href="#second"><img src="assets/arrow.png" class="arrow" /></a>
+                
+        </div>
+        
+        <div class="first" id="second" style="background-image: url('assets/Layer 11.png');">
+            <div class="lefttext">
+                <p><span style="color: gold;">11 OCTOBER 2014</span> | PARIS</p>
+                <h1 class="midh1" style="color: red; padding: 10px 0px;">WILD NATURE</h1>
+                <h1 class="midh1" style="padding: 0px; padding-bottom: 5px; font-weight: lighter;">EXPLORATION</h1>
+                <p style="line-height: 1.25em; text-align:justify; padding-bottom: 10px;">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Modi dicta omnis tempore explicabo harum minus nemo tempora, perferendis totam corrupti magni rem iusto, 
+                    ullam iste ex deleniti sequi impedit laborum.</p>
+                <block class="line" style="width:100%;">
+
+                </block>
+                <block class="georgia">
+                    <h1 style="padding: 10px 0px;" class="quote">"I can honestly say I was amazed by Paris! The beauty of its nature can't be 
+                    described... it must be felt"</h1>
+                </block>
+                <block class="line" style="width: 100%">
+                
+                </block>
+                <block>
+                    <table class="table" style="margin-left: 0%; width:34%; padding-top: 20px;">
+                        <tr>
+                            <td class="boxes">BROWSE SHOOT</td>
+                        </tr>
+                    </table>
+                </block>
+            </div>
+        </div>
+        <div class="first" id="third" style="background-image: url('assets/Layer 31.png')">
+            <div class="lefttext" style="color:#333333; padding-left: 50%; padding-right:10%">
+                <p><span style="color:gold;">6 JULY 2014</span> | BUCHAREST</p>
+                <h1 class="midh1" style="color: red; padding: 10px 0px;">EUROPEAN WONDERINGS</h1>
+                <h1 class="midh1" style="padding: 0px; padding-bottom: 5px; font-weight: lighter;">CLIPS</h1>
+                <p style="line-height: 1.25em; text-align:justify; padding-bottom: 10px;">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Modi dicta omnis tempore explicabo harum minus nemo tempora, perferendis totam corrupti magni rem iusto, 
+                    ullam iste ex deleniti sequi impedit laborum.</p>
+                <block class="line" style="width:100%; border-color:black;">
+
+                </block>
+                <block class="georgia">
+                    <h1 style="padding: 10px 0px;" class="quote">"I had the time of my life on the road and I believe it changed the way I work, 
+                    the way i love... the way I look at things"</h1>
+                </block>
+                <block class="line" style="width: 100%; border-color:black;">
+                
+                </block>
+                <block>
+                    <table class="table" style="margin-left: 0%; width:34%; padding-top: 20px;">
+                        <tr>
+                            <td class="boxes">BROWSE SHOOT</td>
+                        </tr>
+                    </table>
+                </block>
+            </div>
+        </div>
+        <div class="first" id="fourth" style="background-image: url('assets/Layer 5.png');">
+            <div class="midtext" style="transform: translate(-50%, -40%)">
+                <h1 style="font-family: Tangerine, serif; font-size: 100px; font-weight: lighter; padding-bottom: 0px;">Get in touch with me</h1>
+                <block class="line" style="margin: 0px auto;">
+
+                </block>
+                <p style="margin:15px auto; width:80%; font-size: 15px; font-family: 'Lucida console', monospace; line-height: 1.5em">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe officiis fugit ullam quae quia consequatur. Alias culpa 
+                    atque facere suscipit aliquid molestias dicta ullam. Ullam natus impedit rem iure debitis.
+                </p>
+                <form style="text-align: left; width:100%;">
+                    <input type="text" class="text" style="margin-right:3.5%; margin-left:0%" placeholder="ENTER YOUR NAME" />
+                    <input type="email" class="text" style="margin-right: 0%"placeholder="ENTER YOUR EMAIL" />
+                    <br>
+                    <input type="text" class="text" style="height: 125px; width: 100%; resize: none;" placeholder="WHAT'S THIS ABOUT?" />
+                    <input type="submit" class="boxes" value="SEND MESSAGE" style="width: 20%; margin-left: 40%; margin-right: 40%"/>
+                </form>
+            </div>
+        </div>
+        <ul class="list">
+            <li><a href="#first" class="a"><block class="nav">
+
+            </block></a></li>
+            
+            <li><a href="#second" class="a"><block class="nav">
+
+            </block></a></li>
+            
+            <li><a href="#third" class="a"><block class="nav">
+
+            </block></a></li>
+                
+            <li><a href="#fourth" class="a"><block class="nav">
+
+            </block></a></li>
+        </ul>
+    </body>
+</html>
