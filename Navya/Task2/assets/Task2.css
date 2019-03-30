@@ -1,0 +1,253 @@
+.first{
+    background-image: url("Layer 2.png");
+    width : 100%;
+    background-size: cover;
+}
+.second{
+    background-image: url("beautiful-16736_1280.png");
+    width : 100;
+    background-size: cover;
+}
+.third{
+    background-image: url("Layer 3.png");
+    width : 100%;
+    background-size: cover;
+}
+.fourth{
+    background-image: url("Layer 5.png");
+    width : 100%;
+    background-size: cover;
+}
+.fifth{
+    background-color: black;
+}
+.tlg{
+    border: solid;
+    border-width: 1px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+.bar{
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 5px;
+}
+.wel{
+    color: white;
+    margin-top: 120px;
+    padding: 5px;
+}
+.section-header h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10mm;
+    font-weight: bold;
+}
+.section-header h3::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: white;
+    bottom: 1px;
+    left: calc(50% - 30px);
+    position: center;
+}
+.para{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 10mm;
+    font: bold;
+    margin-top: 10px;
+}  
+.lnk{
+    color: white;
+    font-size: 3mm;
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+    background: rgba(255,255,255,0.3);   
+    margin-top: 20px;
+}
+.or{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 7.5mm;
+    margin-top: 15px;
+}
+.fst{
+    margin-left: 100px;
+}
+.dia{
+    margin-top: 90px;
+}
+.im{
+    margin-bottom: 5px;
+}
+.pointer{
+    margin-top: 150px;
+    color: white;
+    margin-bottom: 100px;
+}
+.dat{
+    color: yellow;
+    margin-top: 100px;
+}
+.paris{
+    color: white;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.wild{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10mm;
+}
+.exp{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10mm;
+}
+.lor{
+    color: white;
+    text-align: justify;
+}
+.line h3{
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 0.5px;
+    padding: 15px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 7mm;
+    font-weight: bold;
+    text-align: justify;
+}
+.lnkshoot{
+    color: white;
+    font-size: 3mm;
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+    background: rgba(255,255,255,0.3);   
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.dat2{
+    color: rgba(233, 233, 69, 0.829);
+    margin-top: 100px;
+    font-weight: bold;
+}
+.paris2{
+    color: black;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.wild2{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10mm;
+}
+.exp2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10mm;
+}
+.lor2{
+    color: black;
+    text-align: justify;
+}
+.line2 h3{
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 0.5px;
+    padding: 15px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 7mm;
+    font-weight: bold;
+    text-align: justify;
+}
+.lnkshoot2{
+    color: white;
+    font-size: 3mm;
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+    background: rgba(255,255,255,0.3);   
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.section-header2 h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10mm;
+}
+.section-header2 h3::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 75px;
+    height: 1px;
+    background: white;
+    bottom: 1px;
+    left: calc(50% - 30px);
+    position: center;
+}
+.para2{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+input, input[type="text"]{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px ;
+    border-radius: 0px ;
+    padding: 20px;
+    background: rgba(255,255,255,0.3); 
+    color: white;
+    border: solid;
+}
+input, input[type="email"]{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px ;
+    border-radius: 0px ;
+    padding: 20px;
+    background: rgba(255,255,255,0.3); 
+    color: white;
+    border: solid;
+}
+.txtarea{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px ;
+    border-radius: 0px ;
+    padding: 20px;
+    background: rgba(255,255,255,0.3); 
+    color: white;
+    border: solid;
+}
+input::-webkit-input-placeholder {
+    color: white !important;
+}
+::placeholder{
+    color: white;
+}
+button, button[type="submit"]{
+    background: rgba(255,255,255,0.3); 
+    color: white;
+    border: solid;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px ;
+    border-radius: 0px ;
+}   
+.copyright{
+    color: white;
+    font-size: 3mm;
+    padding: 2px;
+}
