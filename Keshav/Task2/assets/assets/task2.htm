@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+      .div1 {
+        border: 1px solid black;
+        background-size: cover;
+        height: 735px;
+        background:url(Layer_2.png)  no-repeat; 
+
+}       
+      .div2 {
+        border: 1px solid black;
+        background-size: cover;
+        height: 735px;
+        background:url(2.png) no-repeat;
+        
+      }
+      .third {
+        border: 1px solid black;
+        background-size: cover;
+        height: 735px;
+        background:url(second.png) no-repeat;
+        
+      }      
+      
+      .fourth {
+        border: 1px solid black;
+        background-size: cover;
+        height: 735px;
+        background:url(Layer_5.png) no-repeat;
+        
+      }
+      .top
+    {
+      color: white;
+      border: white 2px solid;
+      font-family: "Lucida console";
+      position: absolute;
+      left: 10%;
+      top: 5%;
+      padding: 7px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-weight: lighter;
+    }
+    .nav div{
+      height: 4px;
+      background-color: white;
+      margin: 5px 0;
+      border-radius: 100px;
+    }
+    .nav {
+      width: 30px;
+      display: block;
+      margin: 0.5em 0 0 80em;
+    }
+    .nav:hover div{
+      width: 30px;
+    }
+    .img{
+      margin: 0.5em 0 0 80em;
+    }
+    .mid1{
+      color: white;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 50%;
+    }
+    .midtxt{
+      font-size: 50px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    .line{
+      height: 4px;
+      width: 70px;
+      background-color: white;
+      margin: 15px 0 0 340px;
+      border-radius: 100px;
+      display: block;
+    }
+    .midtx2{
+      font-family: 'Tangerine',serif, cursive;
+      padding: 15px 0px;
+      font-weight: lighter; 
+    }
+
+    .btn1{
+      margin-right: 20px;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+      color: white;
+      background-color: transparent; 
+      padding: 5px 30px;
+      display: inline-block;
+      border: 2px solid white;
+    }
+    .btn2{
+      margin-left: 20px;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+      color: white;
+      background-color: transparent; 
+      padding: 5px 30px;
+      display: inline-block;
+      border: 2px solid white;
+    }
+    .txt2{
+      font-family: 'Tangerine',serif, cursive;
+      font-size: 20px;
+    }
+    .gly:hover{
+      cursor: pointer;
+      cursor: url("1418503756_pointer.png");
+    }
+    .gly{
+      position: relative;
+      top: 240px;
+    }
+    .txt3{
+      color: white;
+      padding-top: 7%;
+      padding-left: 10%;
+      width: 60%;
+      font-family: "lucida console", monospace;
+    }
+    .line2{
+      height: 2px;
+      width: 50%;
+      padding-left: 10%;
+      background-color: white;
+      opacity: 0.5;
+      margin: 15px 0 0 150px;
+      border-radius: 100px;
+      display: block;
+    }
+    .txt4{
+      color: white;
+      font-size: 37px;
+      width: 60%;
+      font-style: italic;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding-top: 1%;
+      padding-left: 10%;
+      line-height: 4em;
+    }
+    .btn3{
+      text-align: center;
+      font-size: 20px;
+      display: inline-block;
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+      border: 2px solid white;
+      padding: 5px 30px;
+      background-color: gray;
+      opacity: 0.7;
+    }
+    .txt5{
+      color: black;
+      padding-top: 7%;
+      padding-left:10%;
+      width: -10%;
+      font-family: "lucida console", monospace;
+    }
+    .line3{
+      height: 2px;
+      width: 41%;
+      padding-right: 10%;
+      background-color: black;
+      opacity: 0.5;
+      margin: 15px 0 0 750px;
+      border-radius: 100px;
+      display: block;
+    }
+    .txt6{
+      color: black;
+      font-size: 30px;
+      width: -10%;
+      font-style: italic;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding-top: 1%;
+      padding-right: 10%;
+      line-height: 1.25em;
+    }
+    .btn4{
+      text-align: center;
+      font-size: 20px;
+      display: inline-block;
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+      border: 2px solid white;
+      padding: 5px 30px;
+      background-color: red;
+      opacity: 0.7;
+    }
+    .mid2{
+      color: white;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 50%;
+    }
+    .midtx3{
+      font-family: 'Tangerine',serif, cursive;
+      
+      font-weight: lighter; 
+    }
+    .lined{
+      height: 3px;
+      width: 80px;
+      background-color: white;
+      margin: 10px 0 0 340px;
+      border-radius: 100px;
+      display: block;
+    }
+    .midtx4{
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
+    .input{
+      margin-left:20px;
+      padding: 5px 150px 5px 5px; 
+      text-align: left;
+      background-color:gray;
+      opacity: 0.7;
+      color: white;
+      border: 2px white solid;
+    }
+    .input1{
+      margin-left:20px;
+      padding: 5px 150px 5px 5px; 
+      text-align: left;
+      background-color:gray;
+      opacity: 0.7;
+      color: white;
+      border: 2px white solid;
+    }
+    ::placeholder{
+      color: white;
+    }
+    .des{
+      margin-top: 20px;
+      margin-left: 20px;
+      padding: 0px 510px 60px 5px;
+      text-align: left;
+      background-color:gray;
+      opacity: 0.7;
+      color: white;
+      border: 2px white solid;
+    }
+    .sub{
+      margin: 20px 35%;
+      padding: 5px 40px;
+      text-align: center;
+      background-color:gray;
+      opacity: 0.7;
+      color: white;
+      border: 2px white solid;
+    }
+    .res{
+      background: black;
+      text-align:center;
+      font-size: 5px;
+      padding-bottom: 2px;
+      border: 2px solid black;
+      color: white;
+    }
+      </style>
+    <title>Task 2</title>
+    
+  </head>
+  <body>
+      
+    <div class="div1">
+      <br><br>
+      <h2><a href="#">
+        <span class="top">TLGDESIGN</span></a></h2>
+        <a href="#" class="nav">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </a>
+        <div class="img">
+          <br><br><br><br><br><br><br>
+          <img src="nav.png"><br>
+          <img src="nav.png"><br>
+          <img src="nav.png"><br>
+          <img src="nav.png"><br>
+          <img src="nav.png"><br>
+        </div>
+        <div class="mid1">
+        <div class="midtx">
+        <h1>WELCOME TO</h1>
+        </div>
+        <div class="line"></div>
+        <div class="midtx2"><h1>Thislooksgreat Photograpic Studio</h1></div>
+        <button class="btn1">Browse Me</button>
+          <span class="txt2" style="font-family: 'Tangerine', serif;"> or</span>
+        <button class="btn2">Hire Me</button>        
+        <div class="gly">
+        <i class='fas fa-arrow-circle-down' style='font-size:36px;color: white'></i></div>
+      </div>
+    </div>
+
+  
+    <div class="div2">
+      <div class="txt3">
+        <p><span style="color: gold; padding-bottom: 0px;">11 OCTOBER 2014</span> | PARIS</p>
+        <h1 style="color: red; padding-top: 0px;">WILD NATURE</h1>
+        <h1 style="padding: 0px; padding-bottom: 0px; font-weight: lighter;">EXPLORATION</h1>
+        <p style="line-height: 1.25em; text-align:justify; padding-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        quis nostrud exercitation ullamco laboris nisi aliquip ex ea commodo 
+      consequat.</p>
+    </div>
+    <div class="line2"></div>
+    <div style="line-height: 1.25em; text-align:justify; padding-bottom: 5px;" class="txt4" >"I can honestly say I was amazed by Paris!
+      The beauty of its nature can't be described...
+      it must be felt"</div>
+      <div class="line2"></div>
+      <div style="padding:2% 10%;"><button class="btn3">Browse Shoot</button></div>
+  </div>
+    <div class="third">
+        <div class="txt5" style="color:#333333; padding-left: 50%; padding-right:10%">
+            <p><span style="color: gold; padding-bottom: 0px;">6 July 2014</span> | BUCHAREST</p>
+            <h1 style="color: red; padding-top: 0px;">EUROPEAN WONDERINGS</h1>
+            <h1 style="padding: 0px; padding-bottom: 0px; font-weight: lighter;">CLIPS</h1>
+            <p style="line-height: 1.25em; text-align:justify; padding-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi aliquip ex ea commodo 
+          consequat.</p>
+        </div>
+        <div class="line3"></div>
+        <div class="txt6" style="color:#333333; padding-left: 50%; padding-right:10%">"I had the time of my life on the road and I believe it changed the way I work, the way I love...the way I look at things"</div>
+          <div class="line3"></div>
+          <div style="padding-left: 50%; padding-right:10; padding-top: 2%;"><button class="btn4">Browse Shoot</button></div>
+    </div>
+    <div class="fourth">
+      <div class="mid2">
+          
+          <div class="midtx3"><h1>Get in touch with me</h1></div>
+          <div class="lined"></div>
+          <div class="midtx4">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+      quis nostrud exercitation ullamco laboris nisi aliquip ex ea commodo 
+      consequat
+      </div>
+      <div class="form">
+          <form style="text-align: left; width:100%;">
+            <input type="text" placeholder="Enter Your Name" class="input">
+            <input type="email" placeholder="Enter Your Email" class="input1">
+            <br>
+            <input type="text" placeholder="WHAT'S THIS ABOUT?" class="des">
+            <br>
+            <input type="submit" value="SEND MESSAGE" class="sub">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="res">
+@2015thislooksgreat. All rights reserved.
+    </div>
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
