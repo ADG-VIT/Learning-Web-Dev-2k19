@@ -1,0 +1,105 @@
+
+body {
+    background-image:url("https://ae01.alicdn.com/kf/HTB1JlmpaKSSBuNjy0Flq6zBpVXaq/Harry-Potter-Hogwarts-Castle-Night-Sky-Baby-Newborn-Child-Fotografia-Photo-Background-Vinyl.jpg_640x640.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    height: 100vh;
+  }
+
+ 
+    
+ 
+  
+.big{
+  background-color: rgb(82, 105, 235);
+  overflow: hidden;
+}
+.big a{
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: lato;
+}
+.big a:hover{
+  background-color: rgb(176, 182, 238);
+  color:black;
+}
+.big a.active{
+  background-color: black;
+  color: white;
+}
+  
+.container {
+  position: relative;
+                width: 30%;
+                height: 60%;
+                float: left;
+                margin: 2.5%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height:80%;
+margin: 2.5%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+
+
+
+
+.container:hover .middle {
+  opacity: 1;
+}
+  
+.text {
+  background-color: rgb(116, 134, 235);
+  color: white;
+  font-size: 40px;
+  padding: 16px 32px;
+  font-family: 'Black And White Picture', sans-serif;
+
+}  
+    
+.sub{
+    color: white;
+    font-size:20px;
+    margin:2.5%;
+}
+
+.test
+{
+background-color: rgb(49, 36, 230);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
