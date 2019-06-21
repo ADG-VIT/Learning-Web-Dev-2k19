@@ -2,7 +2,54 @@ form {
     margin-left: 10%;
 }
 
-.submit {
-    padding: 5% 10% 5% 10%;
+#post {
+    font-size: 200%;
+}
+
+#post input {
+    height: 50px;
+    padding: 0px 10px;
+    font-size: 20px;
+    border: sandybrown 2px solid;
+    border-radius: 10px;
+    outline: none;
+    background-color: navajowhite;
+}
+
+.question {
+    border: sandybrown 2px solid;
+    width: 40%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: navajowhite;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+input[type="button"], input[type="submit"], button {
+    background-color: navajowhite;
+    border: sandybrown 2px solid;
+    border-radius: 30px;
+    padding: 5% 10% 5%;
     font-size: 500%;
+}
+
+* {
+    color: firebrick;
+}
+
+#result {
+    margin: 5% 10%;
+}
+
+#timer {
+    position: fixed;
+    margin-left: 55%;
+    margin-top: 10%;
+    border: sandybrown 2px solid;
+    background-color: navajowhite;
+    padding: 10px;
+    font-family: "Orbitron";
 }

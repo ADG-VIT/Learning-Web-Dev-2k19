@@ -1,9 +1,10 @@
 var x=0;
 var flag=0;
+var sec=30;
 function score() {
     x=0;
     if(document.getElementById('2').checked) {
-        x=x+1;
+        x=x+1
     }
     if(document.getElementById('5').checked) {
         x=x+1;
@@ -17,11 +18,31 @@ function score() {
     if(document.getElementById('17').checked) {
         x=x+1;
     }
-    sessionStorage.setItem("score",x);
+}
+/*Timer from geeksforgeeks.com*/
+function timer() {
+    if(sec>9) {
+        document.getElementById('timer').innerHTML = "00:" + sec;
+    }
+    else if(sec==0) {
+        document.getElementById('timer').innerHTML = "00:00";
+        alert('Time is up. You will now be directed to the results screen');
+        finish2();
+    }
+    else {
+        document.getElementById('timer').innerHTML = "00:0" + sec;
+    }
+    sec=sec-1;
+    setTimeout('timer()',1000);
+}
+
+function startup() {
+    sessionStorage.setItem("score",0);
+    sessionStorage.setItem("name",document.getElementById('name').value);
 }
 
 function display() {
-    document.getElementById('h1').innerHTML = "Your score is " + sessionStorage.getItem('score') + "/5";
+    document.getElementById('h1').innerHTML = "Hello " + sessionStorage.getItem("name") + "!<br>Your score is " + sessionStorage.getItem('score') + "/5";
 }
 
 function quest2() {
@@ -92,4 +113,11 @@ function finish() {
         alert('No option has been selected. Are you sure you want to continue? You cannot attempt this question after skipping it')
         flag=1; 
     }
+    sessionStorage.setItem("score",x);
+    window.open("result.html","_self");
+}
+
+function finish2() {
+    sessionStorage.setItem("score",x);
+    window.open("result.html","_self");
 }
