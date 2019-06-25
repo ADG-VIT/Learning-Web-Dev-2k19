@@ -1,0 +1,35 @@
+body{
+    background-image: url('https://www.wallpapermaiden.com/wallpaper/32445/download/2560x1440/avengers-endgame-silhouette-back-view-walking.jpeg'); /*https://www.wallpapermaiden.com/wallpaper/32445/download/2560x1440/avengers-endgame-silhouette-back-view-walking.jpeg*/
+    background-size: cover;                                                                     /*http://hdqwalls.com/wallpapers/avengers-age-of-ultron-artwork.jpg*/
+}
+.first{
+    font-size: 40px;
+    align-content: center;
+    padding-top: 50px;
+    padding-left: 350px;
+}
+.sub{
+    align-content: center;
+    padding-top: 50px;
+    padding-left: 500px;   
+}
+.name{
+    padding: 35px;
+}
+.field{
+    padding: 10px;
+    background: rgba(255,255,255,0.8);   
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+.but1{
+    padding: 45px;
+    padding-top: 10px;
+}
+.but2{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+}

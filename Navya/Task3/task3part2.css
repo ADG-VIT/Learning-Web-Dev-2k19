@@ -1,0 +1,60 @@
+body{
+    background-image: url('http://www.lunadecals.com/images/WD/WD-DECAL-00098.jpg');
+    background-size: cover;
+}
+.first{
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    padding: 50px 50px 50px 125px;
+    text-align: center;
+    width: 1000px;
+}
+.but{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    background-color: rgb(200,50,50);
+    color: white; 
+    border: 0px;
+}
+.sub{
+    padding-left: 525px;
+}
+.box{
+    width: 200px;
+    text-align: center;
+    padding-left: 510px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+.res{
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 1000;
+    background: rgba(200,50,50,0.7);
+    background-size: 200px;
+    border-radius: 100px;
+}
+.question{
+    font-weight: 600;
+}
+.answers {
+    padding-bottom: 40px;
+    color: gray;
+}
+.timer{
+    color: white;
+    border: solid;
+    border-color: rgba(180,60,60,0.1);
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(180,60,60,0.5);
+}
+.ans{
+    border: solid;
+    border-color: white;
+}
