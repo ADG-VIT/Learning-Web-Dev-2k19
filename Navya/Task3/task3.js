@@ -7,7 +7,7 @@ function validateForm() {
 }
 
 (function() {
-  let sum=0;
+  let sum=0, f=0;
 function buildQuiz() {
   // we'll need a place to store the HTML output
   const output = [];
@@ -43,6 +43,7 @@ function buildQuiz() {
 
 
 function showResults() {
+  f=1;
   // gather answer containers from our quiz
   const answerContainers = quizContainer.querySelectorAll(".answers");
 
@@ -137,8 +138,8 @@ const myQuestions = [
       b: "Age of Ultron",
       c: "Thor Ragnarok"
     },
-    c1: "a",
-    c2: "b",
+    c1: "b",
+    c2: "a",
     c3: "c"
   }
 ];
@@ -148,8 +149,6 @@ buildQuiz();
 
 // on submit, show results
 submitButton.addEventListener("click", showResults);
-})();
-
 
 
 function startTimer(duration, display) {
@@ -163,20 +162,25 @@ function startTimer(duration, display) {
 
       display.textContent = minutes + ":" + seconds;
       --timer;
-      if(timer==-1 && cnt==0)
+      if(timer==-1 && cnt==0 && f==0)
       {
-        alert("Time's up");
+        showResults();
         cnt++;
+        f=1;
       }
-      if (timer < 0) {
+      if (timer < 0 || f==1) {
           timer = 0;
       }      
   }, 1000);
 }
 
 window.onload = function () {
-  var fiveMinutes = 30,
+  var fiveMinutes = 60,
       display = document.querySelector('#time');
   startTimer(fiveMinutes, display);
 };
+})();
+
+
+
 
