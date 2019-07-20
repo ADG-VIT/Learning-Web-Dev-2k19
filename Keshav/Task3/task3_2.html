@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 3</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="task3_2.css"  rel="stylesheet"/>
+</head>
+<body onload="countdown()">
+        <div id="timer"> 
+                Time Left :: 
+                <input id="minutes" type="text" style="width: 10px; background: #6cf; border: none; font-size: 16px; font-weight: bold; color: black;"><font size="5"> : </font> 
+                <input id="seconds" type="text" style="width: 20px; background: #6cf; border: none; font-size: 16px; font-weight: bold; color: black;"> 
+            </div>
+    <div id="quizcontainer" class="content">
+        <div id="ques" class="quest"></div>
+        <label class="option"><input type="radio" name="option" value="1" /><span id="opt1"></span></label>
+        <label class="option"><input type="radio" name="option" value="2" /><span id="opt2"></span></label>
+        <label class="option"><input type="radio" name="option" value="3" /><span id="opt3"></span></label>
+        <label class="option"><input type="radio" name="option" value="4" /><span id="opt4"></span></label>
+        <button id="nextbtn" class="next-btn" onclick="loadnextQuestion();">Next Question</button>
+    </div>
+    <div id="result" class="container result" style="display:none;"></div>
+    <script src="task3.js"></script>
+    <script src="question.js"></script>
+</body>
+</html>
